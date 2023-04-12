@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/info">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ongpoly"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#C6D1D6"
+        android:textColor="#000000"
+        android:alpha="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinh viên: Ngô Lam Nhật"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#C6D1D6"
+        android:textColor="#000000"
+        android:alpha="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSSV: PS27103"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#C6D1D6"
+        android:textColor="#000000"
+        android:alpha="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngành: Lập trình Mobile"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/student"
+        android:visibility="invisible"
+        />
+
+</LinearLayout>

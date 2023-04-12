@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuThu"
+        android:title="Thu"
+        android:icon="@drawable/baseline_attach_money_24"/>
+    <item android:id="@+id/menuChi"
+        android:title="Chi"
+        android:icon="@drawable/baseline_indeterminate_check_box_24"/>
+    <item android:id="@+id/menuThongKe"
+        android:title="Thống kê"
+        android:icon="@drawable/baseline_functions_24"/>
+    <item android:id="@+id/menuKhoangCach" android:title=" ">
+        <menu>
+            <item android:id="@+id/menuGioiThieu"
+                android:title="Giới thiệu"
+                android:icon="@drawable/baseline_quiz_24"/>
+            <item android:id="@+id/menuThoat"
+                android:title="Thoát"
+                android:icon="@drawable/baseline_exit_to_app_24"/>
+        </menu>
+    </item>
+
+
+</menu>
